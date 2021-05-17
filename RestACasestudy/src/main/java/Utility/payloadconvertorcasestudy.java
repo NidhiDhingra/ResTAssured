@@ -8,7 +8,7 @@ public class payloadconvertorcasestudy {
 	
 	public static String generatepayloadstring(String filename) throws IOException
 	{
-		String filepath ="C:\\Users\\NidhiDhingra\\eclipse-workspace\\RestACasestudy\\resource\\"+ filename;
+		String filepath ="C:\\Users\\NidhiDhingra\\git\\RestAssure\\RestACasestudy"+ filename;
 		return new  String(Files.readAllBytes(Paths.get(filepath)));
 		
 	}
